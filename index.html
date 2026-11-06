@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github issue tacker</title>
+
+    <!-- daisyUi and tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font name -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        * {
+            font-family: "Geist", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="min-h-screen max-w-lg mx-auto bg-base-100 rounded-lg my-10 py-20 shadow-xl">
+        <div class="flex flex-col items-center justify-center gap-5">
+            <img src="assets/github-logo.png" alt="">
+            <div class="text-center space-y-1">
+                <h2 class="text-2xl font-semibold">GitHub Issues Tracker</h2>
+                <p class="text-neutral/50">Sign in to manage your issues</p>
+            </div>
+        </div>
+        <div class="card bg-base-100 w-11/12 mx-auto shrink-0 mt-3">
+            <div class="card-body">
+                <fieldset class="fieldset">
+                    <label class="label text-neutral text-lg font-semibold">Username</label>
+                    <input id="login-u-name" type="text" class="input w-full" placeholder="Enter Your Username" />
+                    <label class="label text-neutral text-lg font-semibold mt-2">Password</label>
+                    <input id="login-password" type="password" class="input w-full" placeholder="Enter Your Password" />
+                    <button id="login-btn" class="btn btn-primary mt-4">Sign in</button>
+                </fieldset>
+            </div>
+    </section>
+
+    <script src="script/meachine.js"></script>
+    <script src="script/login.js"></script>
+</body>
+
+</html>

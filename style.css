@@ -1,0 +1,42 @@
+.btnLevel{
+    background-color: rgb(252, 248, 236);
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+    border-radius: 40px;
+}
+
+.btnHigh{
+    background-color: rgb(255, 214, 214);
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+
+.btnMedium{
+    background-color: rgb(252, 248, 236);
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+
+.btnLow{
+    background-color: rgb(236, 235, 235);
+    color: gray;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+
+.btnStatus{
+    background-color: rgb(37, 219, 37);
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 3px 10px;
+}
